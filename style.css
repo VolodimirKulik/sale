@@ -102,7 +102,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px;
+    margin: 0px 8px 0px 0px;
 }
 
 .sale-text-cash {
@@ -209,6 +209,59 @@
         padding-left: 32px;
         padding-right: 32px;
     }
+    .watch {
+        width: 146px;
+        height: 146px;
+        }
+    .img-item {
+        width: 146px;
+        height: 146px;
+    }
+    .watch5 {
+        width: 406px;
+        height: 614px;
+    }
+    .sale-block-img {
+        justify-content: center;
+    }
+    .sale-container-text{
+        padding-left: 60px;
+        padding-right: 66px;
+    }
+    .product-title{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        color: #141414;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .product-text{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        color: rgba(20, 20, 20, 0.5);
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .description-text{
+        width: 572px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.01em;
+         color: rgba(20, 20, 20, 0.5);
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -216,5 +269,21 @@
         max-width: 1206px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .sale-block-content{
+        display: flex;
+        padding-left: 97px;
+    }
+    .sale-block-img{
+        margin-top: 42px;
+    }
+    .description-text {
+        width: 369px;
+    }
+    .list-img{
+        display: block;
+    }
+    .img-item{
+        margin: 0px 0px 10px 0px;
     }
 }
